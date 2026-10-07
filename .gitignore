@@ -1,0 +1,37 @@
+# Backend (Python / uv)
+backend/.venv/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+backend/.env
+
+# Frontend (handled per-package, kept here too for safety)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Env files
+.env
+.env.local
+
+# OS / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Claude Code local session state
+.claude/
+
+# Personal review notes, never shared/committed
+REVIEW_NOTES.md
+REVIEW_NOTES_HISTORY.md
+
+# Personal troubleshooting log, never shared/committed
+TROUBLESHOOTING.md
+
+# Reference screenshots for planning/design, never shared/committed
+reference-images/

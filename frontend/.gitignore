@@ -1,0 +1,28 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# tesseract.js가 Node에서 돌 때 작업 디렉터리에 받아두는 학습 데이터(수십 MB).
+# 브라우저는 IndexedDB에 캐시하므로 저장소에 있을 이유가 없다.
+*.traineddata
